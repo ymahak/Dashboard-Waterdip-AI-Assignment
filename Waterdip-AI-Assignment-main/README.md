@@ -26,3 +26,12 @@ adults: Number of adults in the booking.
 children: Number of children in the booking.
 babies: Number of babies in the booking.
 country: The country from which the travelers originate.
+
+### Technologies Used
+1.React.js (with TypeScript)
+2.ApexCharts for chart visualizations
+3.Axios for API calls
+4.Jest for testing
+
+### Version Control
+The project is version-controlled using Git. Follow best practices with meaningful commit messages and proper branching strategies.
