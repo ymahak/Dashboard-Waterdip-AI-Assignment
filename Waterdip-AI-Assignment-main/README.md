@@ -1,46 +1,28 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Hotel Booking Dashboard
+This project is a single-page dashboard that visualizes hotel booking data using various charts. The dashboard is built using React.js (preferably in TypeScript) and allows filtering of data by date range.
 
-## Available Scripts
+### Project Features
+Date Range Selector: Filters the data and updates all charts based on the selected date range.
+4 Charts:
+Time Series Chart: Displays the number of visitors per day (total = adults + children + babies).
+Column Chart: Shows the number of visitors per country.
+Sparkline Charts:
+Sparkline 1: Total number of adult visitors.
+Sparkline 2: Total number of children visitors.
 
-In the project directory, you can run:
 
-### `npm start`
+### Chart References
+Time Series Chart: Zoomable Time Series
+Column Chart: Column with Data Labels
+Sparkline Charts: Basic Sparklines
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Data
+The dataset includes 1,000 records of hotel bookings with the following fields:
+arrival_date_year: Year of the arrival.
+arrival_date_month: Month of the arrival.
+arrival_date_day_of_month: Day of the arrival.
+adults: Number of adults in the booking.
+children: Number of children in the booking.
+babies: Number of babies in the booking.
+country: The country from which the travelers originate.
