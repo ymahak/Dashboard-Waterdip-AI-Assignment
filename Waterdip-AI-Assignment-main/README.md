@@ -1,10 +1,11 @@
 
 ### Hotel Booking Dashboard
-This project is a single-page dashboard that visualizes hotel booking data using various charts. The dashboard is built using React.js (preferably in TypeScript) and allows filtering of data by date range.
+This project is a single-page dashboard that visualizes hotel booking data using various charts. 
+- The dashboard is built using React.js (preferably in TypeScript) and allows filtering of data by date range.
 
 ### Project Features
 Date Range Selector: Filters the data and updates all charts based on the selected date range.
-4 Charts:
+- 4 Charts:
 - Time Series Chart: Displays the number of visitors per day (total = adults + children + babies).
 - Column Chart: Shows the number of visitors per country.
 - Sparkline Charts:
